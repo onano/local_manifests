@@ -1,5 +1,5 @@
-CyanogenMod 12.1 for Xiaomi Redmi 1s device
+CyanogenMod 13.0 for Xiaomi Redmi 1s device
 ===============
 
-Local manifest needed to build cm-12.1 for Xiaomi Redmi 1s.
+Local manifest needed to build cm-13.0 for Xiaomi Redmi 1s.
 
