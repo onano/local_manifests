@@ -12,7 +12,7 @@
 <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-12.1" />
 <!-- 3.10.x -->
 <project path="kernel/xiaomi/armani-msm310" name="onano/kernel-android" remote="github" revision="merge" />
-<project path="device/xiaomi/armani" name="armani-dev/android_device_xiaomi_armani" remote="github" revision="cm-12.1" />
+<project path="device/xiaomi/armani" name="armani-dev/android_device_xiaomi_armani" remote="github" revision="cm-12.1-msm310" />
 <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
 
  <!-- HACK using 8084 hals -->
