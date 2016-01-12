@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- 
+  TODO: Introduce armani-3.10 specific HALS
+-->
+
 <!-- armani Specific -->
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.1" />
 <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" revision="cm-12.1" />
+<!-- 3.4.x -->
 <project path="kernel/xiaomi/armani" name="armani-dev/android_kernel_xiaomi_armani" remote="github" revision="cm-12.1" />
+<!-- 3.10.x -->
+<project path="kernel/xiaomi/armani-msm310" name="onano/kernel-android" remote="github" revision="merge" />
 <project path="device/xiaomi/armani" name="armani-dev/android_device_xiaomi_armani" remote="github" revision="cm-12.1" />
 <project path="vendor/xiaomi" name="armani-dev/proprietary_vendor_xiaomi" remote="github" revision="cm-12.1" />
 
